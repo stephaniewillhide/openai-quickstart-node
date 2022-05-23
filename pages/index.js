@@ -46,7 +46,7 @@ export default function Home() {
               />
               <input type="submit" className="btn btn-info m-3" value="Generate plan" />
             </form>
-            <div className={styles.result}>{result}</div>
+            <div className="alert alert-primary">{result}</div>
           </div>
         </div>
       </main>
